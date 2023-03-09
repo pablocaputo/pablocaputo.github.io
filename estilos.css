@@ -1,0 +1,74 @@
+*{
+   
+    font-family: 'Roboto Mono', monospace;
+}
+
+.titulo{
+    display: block;
+    text-align: center;
+    color: brown;
+    
+    background-color: lightblue;
+   
+}
+.img{
+    width: 50%;
+    margin: auto;
+    display: block;
+
+}
+.mitad{
+    width: 100%;
+    margin: auto;
+    zoom: 1.50;
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+.izquierda{
+    float: left;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    margin: auto;
+    width: 50%;
+    background-color: cadetblue;
+
+}
+.derecha{
+    width: 50%;
+    float: left;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    margin: auto;
+    background-color: darkseagreen;
+    
+}
+.centro{
+    width: 99%;
+    background-color: lightblue;
+}
+.oculto{
+    display: none;
+}
+#boton{
+    color: darkorange;
+}
+.datos :hover{
+    color: coral;
+}
+.estudios :hover{
+    color: darkgreen;
+}
+.final{
+    width: 50%;
+    height: 55%;
+    float: right;
+    background-color: rgb(11, 167, 94);
+    box-sizing: border-box;
+}
+.footer{
+    box-sizing: border-box;
+    background-color: rgb(30, 177, 210);
+    width: 50%;
+    display: block;
+}
